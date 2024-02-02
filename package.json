@@ -4,7 +4,7 @@
   "description": "",
   "main": "fib.js",
   "scripts": {
-    "test": "mocha 'test/**/*.js' --recursive"
+    "test": "mocha 'tests/**/*.js' --recursive"
   },
   "keywords": [],
   "author": "",
