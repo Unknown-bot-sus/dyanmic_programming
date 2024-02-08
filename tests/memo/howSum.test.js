@@ -1,5 +1,5 @@
 const assert = require("assert");
-const howSum = require("../howSum");
+const howSum = require("../../memo/howSum");
 
 describe("howSum", () => {
   it("returns null for impossible combination", () => {

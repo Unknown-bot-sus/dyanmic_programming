@@ -1,5 +1,5 @@
 const assert = require("assert");
-const bestSum = require("../bestSum");
+const bestSum = require("../../memo/bestSum");
 
 describe("bestSum", () => {
   it("returns empty [] for 0", () => {

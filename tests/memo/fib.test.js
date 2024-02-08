@@ -1,4 +1,4 @@
-const fib = require("../fib");
+const fib = require("../../memo/fib");
 const assert = require("assert");
 
 describe("fib", () => {

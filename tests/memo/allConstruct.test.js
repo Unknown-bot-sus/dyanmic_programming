@@ -1,4 +1,4 @@
-const allConstruct = require("../allConstruct");
+const allConstruct = require("../../memo/allConstruct");
 const assert = require("assert");
 
 describe("allConstruct", () => {

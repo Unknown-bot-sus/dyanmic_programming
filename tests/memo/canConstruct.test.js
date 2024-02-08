@@ -1,4 +1,4 @@
-const canConstruct = require("../canConstruct");
+const canConstruct = require("../../memo/canConstruct");
 const assert = require("assert");
 
 describe("canConstruct", () => {

@@ -1,4 +1,4 @@
-const countConstruct = require("../countConstruct");
+const countConstruct = require("../../memo/countConstruct");
 const assert = require("assert");
 
 describe("countConstruct", () => {
