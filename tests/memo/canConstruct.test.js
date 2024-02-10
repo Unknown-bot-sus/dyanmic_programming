@@ -1,26 +1,4 @@
 const canConstruct = require("../../memo/canConstruct");
-const assert = require("assert");
+const gen = require("../utils/canConstruct");
 
-describe("canConstruct", () => {
-  it("return true for empty string", () => {
-    assert.strictEqual(canConstruct("", []), true);
-  });
-
-  it("returns false for impossible string", () => {
-    assert.strictEqual(canConstruct("abc", ["a", "b", "cd"]), false);
-  });
-
-  it("it is optimized", () => {
-    assert.strictEqual(
-      canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", [
-        "e",
-        "ee",
-        "eee",
-        "eeeee",
-        "eeeee",
-        "eeeeeee",
-      ]),
-      false
-    );
-  });
-});
+describe("canConstruct memo", gen(canConstruct));
