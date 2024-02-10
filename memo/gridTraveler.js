@@ -10,3 +10,5 @@ const gridTraveler = (m, n, memo = new Map()) => {
   memo.set(key, gridTraveler(m - 1, n, memo) + gridTraveler(m, n - 1, memo));
   return memo.get(key);
 };
+
+module.exports = gridTraveler;
